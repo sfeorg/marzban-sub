@@ -3,6 +3,7 @@
     <img src="https://raw.githubusercontent.com/x0sina/marzban-sub/main/PreviewTemplate.png" title="Marzba-Sub"/>
   </a>
 </p>
+<h1 align="center"/>حل مشکل عدم بارگذاری بدون فیلترشکن </h1>
 <h1 align="center"/>قالب سابسکریپشن برای پنل  <a href="https://github.com/Gozargah/Marzban">مرزبان</a></h1>
 
 ## فهرست مطالب
