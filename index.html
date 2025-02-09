@@ -7,7 +7,7 @@
     <title>{{ user.username }} - Sub Info</title>
     <style>
         .asli {
-            background: url('https://4kwallpapers.com/images/wallpapers/windows-server-2025-3840x2400-15386.jpg') no-repeat;
+            background: url('') no-repeat;
             background-position: center;
             background-size: cover;
         }
@@ -3202,8 +3202,8 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
             document.getElementById("android-v2rayng").href = `v2rayng://install-config?url=${fullUrl}`;
             document.getElementById("ios-singbox").href = `sing-box://import-remote-profile?url=${fullUrl}#Sub`;
             document.getElementById("android-singbox").href = `sing-box://import-remote-profile?url=${fullUrl}#Sub`;
-            document.getElementById("android-nekobox").href = `sn://subscription?url=${fullUrl}&name=Sub`;
-            document.getElementById("windows-clashverge").href = `clash://install-config?url=${fullUrl}`
+            document.getElementById("android-nekobox").href = `hiddify://install-config?url=${fullUrl}`;
+            document.getElementById("windows-clashverge").href = `hiddify://install-config?url=${fullUrl}`
 
 
             // Android Apps
@@ -3619,7 +3619,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                 telsupport: "Telegram Support",
                 telProxy: "Telegram Proxy",
                 v2rayNG: "Android - Download v2rayNG",
-                NekoBox: "Android - Download NekoBox",
+                NekoBox: "Android - Download hiddify",
                 SingBox: "Android - Download SingBox",
                 Streisand: "iOS - Download Streisand",
                 FoXray: "iOS - Downaload FoXray",
@@ -3628,7 +3628,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                 addV2rayNG: "v2rayNG",
                 addStreisand: "Streisand",
                 addFoXray: "FoXray",
-                addNekoBox: "NekoBox",
+                addNekoBox: "Hiddify",
                 addV2Box: "v2Box",
                 addShadowrocket: "Shadowrocket",
                 addsingbox: "Sing-Box",
@@ -3636,7 +3636,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                 addnekoray: "Nekoray",
                 addClash: "Clash",
                 addClashMeta: "Clash Meta",
-                addClashVerge: "Clash Verge",
+                addClashVerge: "hiddify",
                 addClashX: "Clash X",
                 install: "Click on the download link to download the program for your operating system!",
                 support: "Support",
@@ -3663,6 +3663,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                 v2rayNGs3: "Update Subscription",
                 v2rayNGs3Info: "After step two, you need to update your subscription once. There are two images below which guides you through it.",
                 howToConnect: "How To Connect?",
+				ipv6: "active ipv6",
                 connectInfo: "You can use your subscription through the following menu for your desired operating system.",
                 macInfo: "Note: subscription setup on Mac is the same as iOS.",
                 generalAccess: "General Access",
@@ -3701,7 +3702,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                 telProxy: "پروکسی تلگرام",
                 telsupport: "پشتیبانی تلگرام",
                 v2rayNG: "اندروید - دانلود برنامه v2rayNG",
-                NekoBox: "اندروید - دانلود برنامه NekoBox",
+                NekoBox: "اندروید - دانلود برنامه Hiddify",
                 SingBox: "اندروید - دانلود برنامه Sing-Box",
                 Streisand: "آی او اِس - دانلود برنامه Streisand",
                 FoXray: "آی او اِس - دانلود برنامه FoXray",
@@ -3710,7 +3711,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                 addV2rayNG: "v2rayNG",
                 addStreisand: "Streisand",
                 addFoXray: "FoXray",
-                addNekoBox: "NekoBox",
+                addNekoBox: "Hiddify",
                 addV2Box: "v2Box",
                 addShadowrocket: "Shadowrocket",
                 addsingbox: "Sing-Box",
@@ -3718,7 +3719,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                 addnekoray: "Nekoray",
                 addClash: "Clash",
                 addClashMeta: "Clash Meta",
-                addClashVerge: "Clash Verge",
+                addClashVerge: "Hiddify",
                 addClashX: "Clash X",
                 install: "برای دانلود برنامه مورد نظر نسبت به سیستم عامل خودتون روی لینک دانلود کلیک کنید!",
                 support: "پشتیبانی",
@@ -3745,9 +3746,11 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                 v2rayNGs3: "بروزرسانی اشتراک",
                 v2rayNGs3Info: "پس از مرحله دوم، باید یک بار اشتراک خود را به روز کنید. دو تصویر شما را راهنمایی می کند.",
                 howToConnect: "چطوری وصل بشم؟",
+				ipv6: "آموزش اتصال : قدم اول فعالسازی ipv6 در ایرانسل",
                 connectInfo: "با استفاده از منو های زیر نسبت به سیستم عامل خود می توانید از اشتراک خود استفاده کنید.",
                 macInfo: "نکته: اتصال در مک مشابه آی او اِس است",
                 generalAccess: "دسترسی کلی",
+				ipv6info: "برای فعالسازی کانفیگ های پرسرعت روی ایرانسل حتما این قابلیت را فعال کنید! با توجه به مدل گوشی خودتان برای دیدن آموزش مربوطه روی دکمه های زیر بزنید :",
                 generalAccessInfo: "در این بخش، شما به کانفیگ های خود به طور جداگانه دسترسی دارید که به شما امکان می دهد هر یک از آنها را از طریق کد QR به اشتراک بگذارید یا می توانید به سادگی آنها را کپی کنید.",
                 supTelInfo: "در صورت وجود هرگونه مشکل در اشتراک, با پشیتبانی تلگرام در ارتباط باشید."
             },
@@ -3783,7 +3786,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                 telsupport: "Поддержка Telegram",
                 telProxy: "Прокси-сервер Telegram",
                 v2rayNG: "Android - Download v2rayNG",
-                NekoBox: "Android - Download NekoBox",
+                NekoBox: "Android - Download Hiddify",
                 SingBox: "Android - Download SingBox",
                 Streisand: "iOS - Download Streisand",
                 FoXray: "iOS - Downaload FoXray",
@@ -3792,7 +3795,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                 addV2rayNG: "v2rayNG",
                 addStreisand: "Streisand",
                 addFoXray: "FoXray",
-                addNekoBox: "NekoBox",
+                addNekoBox: "Hiddify",
                 addV2Box: "v2Box",
                 addShadowrocket: "Shadowrocket",
                 addsingbox: "Sing-Box",
@@ -3800,7 +3803,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                 addnekoray: "Nekoray",
                 addClash: "Clash",
                 addClashMeta: "Clash Meta",
-                addClashVerge: "Clash Verge",
+                addClashVerge: "hiddify",
                 addClashX: "Clash X",
                 install: "Нажмите на следующие кнопки, чтобы загрузить программу для вашей операционной системы!",
                 support: "Поддержка",
@@ -3970,12 +3973,13 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
             class="relative px-6 pt-10 pb-8 shadow-main-sh rounded-none dark:shadow-main-sh-dark sm:mx-auto sm:rounded-3xl sm:px-10 bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-0 w-full max-w-2xl">
             <div class="mx-auto max-w-xl">
                 <div
-                    class="flex mb-8 bg-gradient-to-r from-gray-100 via-gray-200 to-gray-300 dark:from-gray-700 dark:via-gray-800 dark:to-gray-900 rounded-3xl p-8 dark:text-white text-black flex-col sm:flex-row space-y-10 sm:space-y-0 sm:divide-x sm:rtl:divide-x-reverse sm:divide-blue-600/50">
+                    class="flex mb-8 bg-gradient-to-r from-gray-5 via-gray-5 to-gray-5 dark:from-gray-5 dark:via-gray-5 dark:to-gray-900 rounded-3xl p-8 dark:text-white text-black flex-col sm:flex-row space-y-10 sm:space-y-0 sm:divide-x sm:rtl:divide-x-reverse sm:divide-blue-600/50">
                     <div class="basis-1/3 space-y-5 flex flex-col items-center py-3 sm:ltr:pr-9 sm:rtl:pl-9" x-data>
                         <div x-text="calculatePercentage(dataUsed, dataLimit) + '%'"
                             :class="getChartColor(calculatePercentage(dataUsed, dataLimit))"
-                            class="radial-progress font-black text-2xl" id="progress__bar" style="--size:9rem;
+                            id="progress__bar" style="--size:0rem;
                             --thickness: 1.2rem;"></div>
+							
                         <span class="inline-block dark:text-white text-black font-semibold text-lg">{{ user.username
                             }}</span>
                         <span
@@ -4009,6 +4013,77 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                     </div>
                 </div>
                 <div class="flex flex-col gap-y-4 mb-8 text-white text-sm sm:text-base">
+    <h4 x-text="$t('ipv6')"
+        class="my-4 text-3xl font-black leading-none tracking-tight text-white md:text-5xl">
+    </h4>
+    <p x-text="$t('ipv6info')" class="text-lg font-normal mb-4 text-gray-300 lg:text-xl"></p>
+
+    <div style="display: flex; justify-content: space-between; width: 100%; padding: 10px;">
+        <button onclick="openDialog('samsung')"
+            style="flex: 1; text-align: center; background-color: #007bff; color: white; padding: 10px; border-radius: 8px; margin: 0 10px; border: none; cursor: pointer; text-decoration: none; display: flex; align-items: center; justify-content: center;">
+            سامسونگ
+        </button>
+        <button onclick="openDialog('xiaomi')"
+            style="flex: 1; text-align: center; background-color: #28a745; color: white; padding: 10px; border-radius: 8px; margin: 0 10px; border: none; cursor: pointer; text-decoration: none; display: flex; align-items: center; justify-content: center;">
+            شیائومی
+        </button>
+        <button onclick="openDialog('iphone')"
+            style="flex: 1; text-align: center; background-color: #dc3545; color: white; padding: 10px; border-radius: 8px; margin: 0 10px; border: none; cursor: pointer; text-decoration: none; display: flex; align-items: center; justify-content: center;">
+            آیفون
+        </button>
+    </div>
+</div>
+
+<!-- دیالوگ -->
+<div id="videoDialog"
+    style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100vh; background: rgba(0, 0, 0, 0.8); justify-content: center; align-items: center; z-index: 9999;">
+    <div style="background: white; padding: 20px; border-radius: 10px; width: 90%; max-width: 500px; position: relative; text-align: center;">
+        <button onclick="closeDialog()" 
+            style="position: absolute; top: 10px; right: 10px; background: none; border: none; font-size: 20px; cursor: pointer;">
+            ×
+        </button>
+        <h3 style="margin-bottom: 15px;">نمایش ویدیو</h3>
+        <iframe id="videoFrame" width="100%" height="auto" style="min-height: 250px; max-height: 60vh;" frameborder="0" allowfullscreen></iframe>
+        
+        <!-- لینک مخصوص آیفون -->
+        <div id="iphoneLink" style="display: none; margin-top: 10px;">
+            <a href="https://mobileconfig.azurewebsites.net/" target="_blank" style="color: #007bff; text-decoration: none; font-weight: bold;">
+                برای رفتن به آدرس داخل ویدئو اینجا بزنید
+            </a>
+        </div>
+
+        <button onclick="closeDialog()" 
+            style="background: #28a745; color: white; padding: 10px; border-radius: 8px; margin-top: 15px; border: none; cursor: pointer;">
+            فعال کردم!
+        </button>
+    </div>
+</div>
+
+<script>
+    function openDialog(brand) {
+        let videoUrl = "";
+        if (brand === "iphone") {
+            videoUrl = "https://www.aparat.com/video/video/embed/videohash/lcx5094/vt/frame";
+            document.getElementById("iphoneLink").style.display = "block"; // نمایش لینک برای آیفون
+        } else if (brand === "xiaomi") {
+            videoUrl = "https://www.aparat.com/video/video/embed/videohash/ndc485n/vt/frame";
+            document.getElementById("iphoneLink").style.display = "none"; // مخفی کردن لینک برای بقیه
+        } else if (brand === "samsung") {
+            videoUrl = "https://www.aparat.com/video/video/embed/videohash/ndu013x/vt/frame";
+            document.getElementById("iphoneLink").style.display = "none"; // مخفی کردن لینک برای بقیه
+        }
+
+        document.getElementById("videoFrame").src = videoUrl;
+        document.getElementById("videoDialog").style.display = "flex";
+    }
+
+    function closeDialog() {
+        document.getElementById("videoDialog").style.display = "none";
+        document.getElementById("videoFrame").src = ""; // توقف ویدیو
+    }
+</script>
+
+
                     <h2 x-text="$t('howToConnect')"
                         class="my-4 text-3xl font-black leading-none tracking-tight text-white md:text-5xl">
 
@@ -5287,7 +5362,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                                     <p x-text="$t('clickForDownload')"
                                                                         class="text-sm mb-4 font-normal text-white lg:text-base">
                                                                     </p>
-                                                                    <a href="https://github.com/2dust/v2rayNG/releases/download/1.8.9/v2rayNG_1.8.9.apk"
+                                                                    <a href="https://github.com/2dust/v2rayNG/releases/download/1.9.33/v2rayNG_1.9.33_universal.apk"
                                                                         class="flex mb-4 items-center gap-x-4 w-full bg-gray-800 shadow-md px-3 py-2 rounded-3xl justify-between">
                                                                         <lord-icon class="w-8 h-8"
                                                                             src="https://cdn.lordicon.com/albqovim.json"
@@ -5415,7 +5490,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                                     <p x-text="$t('clickForDownload')"
                                                                         class="text-sm mb-4 font-normal text-white lg:text-base">
                                                                     </p>
-                                                                    <a href="https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/download/1.2.3/NB4A-1.2.3-arm64-v8a.apk"
+                                                                    <a href="https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-universal.apk"
                                                                         class=" flex mb-4 items-center gap-x-4 w-full
                                                                         bg-gray-800 shadow-md px-3 py-2 rounded-3xl
                                                                         justify-between">
@@ -5926,74 +6001,12 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                     class="text-white bg-gradient-to-r from-emerald-500 via-emerald-600 to-emerald-700 focus:ring-4 focus:outline-none focus:ring-teal-300 transition-all duration-300 font-medium rounded-2xl">
                                                     <!-- Accordion item -->
                                                     <div x-data="{ expanded: false }">
-                                                        <h2>
-                                                            <button style="direction: ltr;" id="faqs-title-01"
-                                                                type="button"
-                                                                class="flex items-center p-4 justify-between w-full text-left font-semibold"
-                                                                @click="expanded = !expanded" :aria-expanded="expanded"
-                                                                aria-controls="faqs-text-01">
-                                                                <div
-                                                                    class="flex items-center justify-start gap-x-2 text-lg sm:text-xl font-medium">
-                                                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                                                        version="1.0" class="w-6 h-6"
-                                                                        viewBox="0 0 170.000000 170.000000"
-                                                                        preserveAspectRatio="xMidYMid meet">
-
-                                                                        <g transform="translate(0.000000,170.000000) scale(0.100000,-0.100000)"
-                                                                            fill="#FFF" stroke="none">
-                                                                            <path
-                                                                                d="M230 1385 l0 -75 75 0 75 0 2 -549 3 -549 580 616 c319 338 582 619 583 624 2 4 -86 8 -195 8 l-198 0 -275 -257 -275 -256 -5 254 -5 254 -182 3 -183 2 0 -75z" />
-                                                                        </g>
-                                                                    </svg>
-                                                                    <span x-text="$t('addV2rayN')">
-                                                                    </span>
-                                                                </div>
-                                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                                                                    viewBox="0 0 24 24" stroke-width="1.5"
-                                                                    stroke="currentColor"
-                                                                    :class="{'!rotate-180': expanded}"
-                                                                    class="w-6 h-6 mx-6 transform origin-center transition duration-200 ease-out">
-                                                                    <path strokeLinecap="round" strokeLinejoin="round"
-                                                                        d="M4.5 15.75l7.5-7.5 7.5 7.5" />
-                                                                </svg>
-                                                            </button>
-                                                        </h2>
+                                                     
                                                         <div id="faqs-text-01" role="region"
                                                             aria-labelledby="faqs-title-01"
                                                             class="grid text-sm text-white overflow-hidden transition-all duration-300 ease-in-out"
                                                             :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'">
-                                                            <div class="overflow-hidden">
-                                                                <div class="p-4 pb-6">
-                                                                    <div
-                                                                        class="flex items-center rtl:mr-[-10px] ltr:ml-[-10px] md:rtl:mr-[-20px] md:ltr:ml-[-20px]">
-                                                                        <lord-icon
-                                                                            src="https://cdn.lordicon.com/mtdulhdc.json"
-                                                                            trigger="hover"
-                                                                            colors="primary:#fff,secondary:#fff"
-                                                                            class="w-12 h-12 md:w-20 md:h-20 ">
-                                                                        </lord-icon>
-                                                                        <h3 x-text="$t('downloadApp')"
-                                                                            class="text-xl font-black leading-none tracking-tight text-white md:text-2xl">
-                                                                        </h3>
-                                                                    </div>
-                                                                    <p x-text="$t('clickForDownload')"
-                                                                        class="text-sm mb-4 font-normal text-white lg:text-base">
-                                                                    </p>
-                                                                    <a href="https://github.com/2dust/v2rayN/releases/download/6.27/zz_v2rayN-With-Core-SelfContained.7z"
-                                                                        class="flex mb-4 items-center gap-x-4 w-full bg-gray-800 shadow-md px-3 py-2 rounded-3xl justify-between">
-                                                                        <lord-icon class="w-8 h-8"
-                                                                            src="https://cdn.lordicon.com/albqovim.json"
-                                                                            trigger="loop" delay="1500"
-                                                                            colors="primary:#fff" state="intro">
-                                                                        </lord-icon>
-                                                                        <span x-text="$t('download')"></span>
-                                                                        <lord-icon class="w-8 h-8"
-                                                                            src="https://cdn.lordicon.com/albqovim.json"
-                                                                            trigger="loop" delay="1500"
-                                                                            colors="primary:#fff" state="intro">
-                                                                        </lord-icon>
-                                                                    </a>
-                                                                </div>
+                                                        
                                                             </div>
                                                         </div>
                                                     </div>
@@ -6002,33 +6015,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                     class="text-white bg-gradient-to-r from-zinc-500 via-zinc-600 to-zinc-700 focus:ring-4 focus:outline-none focus:ring-teal-300 transition-all duration-300 font-medium rounded-2xl">
                                                     <!-- Accordion item -->
                                                     <div x-data="{ expanded: false }">
-                                                        <h2>
-                                                            <button style="direction: ltr;" id="faqs-title-01"
-                                                                type="button"
-                                                                class="flex items-center p-4 justify-between w-full text-left font-semibold"
-                                                                @click="expanded = !expanded" :aria-expanded="expanded"
-                                                                aria-controls="faqs-text-01">
-                                                                <div
-                                                                    class="flex items-center justify-start gap-x-2 text-lg sm:text-xl font-medium">
-                                                                    <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none"
-                                                                        xmlns="http://www.w3.org/2000/svg">
-                                                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                            d="M22.25 12.75V23.424L10.75 21.004V12.75H22.25ZM22.25 11.25V0.576L10.75 2.996V11.25H22.25ZM9.25 3.313L1.75 4.89V11.249H9.25V3.313ZM1.75 12.75H9.25V20.688L1.75 19.108V12.75Z"
-                                                                            fill="white" />
-                                                                    </svg>
-                                                                    <span x-text="$t('addnekoray')">
-                                                                    </span>
-                                                                </div>
-                                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                                                                    viewBox="0 0 24 24" stroke-width="1.5"
-                                                                    stroke="currentColor"
-                                                                    :class="{'!rotate-180': expanded}"
-                                                                    class="w-6 h-6 mx-6 transform origin-center transition duration-200 ease-out">
-                                                                    <path strokeLinecap="round" strokeLinejoin="round"
-                                                                        d="M4.5 15.75l7.5-7.5 7.5 7.5" />
-                                                                </svg>
-                                                            </button>
-                                                        </h2>
+                                                       
                                                         <div id="faqs-text-01" role="region"
                                                             aria-labelledby="faqs-title-01"
                                                             class="grid text-sm text-white overflow-hidden transition-all duration-300 ease-in-out"
@@ -6050,20 +6037,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                                     <p x-text="$t('clickForDownload')"
                                                                         class="text-sm mb-4 font-normal text-white lg:text-base">
                                                                     </p>
-                                                                    <a href="https://github.com/MatsuriDayo/nekoray/releases/download/3.21/nekoray-3.21-2023-09-12-windows64.zip"
-                                                                        class="flex mb-4 items-center gap-x-4 w-full bg-gray-800 shadow-md px-3 py-2 rounded-3xl justify-between">
-                                                                        <lord-icon class="w-8 h-8"
-                                                                            src="https://cdn.lordicon.com/albqovim.json"
-                                                                            trigger="loop" delay="1500"
-                                                                            colors="primary:#fff" state="intro">
-                                                                        </lord-icon>
-                                                                        <span x-text="$t('download')"></span>
-                                                                        <lord-icon class="w-8 h-8"
-                                                                            src="https://cdn.lordicon.com/albqovim.json"
-                                                                            trigger="loop" delay="1500"
-                                                                            colors="primary:#fff" state="intro">
-                                                                        </lord-icon>
-                                                                    </a>
+                                                                    
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -6121,7 +6095,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                                     <p x-text="$t('clickForDownload')"
                                                                         class="text-sm mb-4 font-normal text-white lg:text-base">
                                                                     </p>
-                                                                    <a href="https://github.com/zzzgydi/clash-verge/releases/download/v1.3.7/Clash.Verge_1.3.7_x64_en-US.msi"
+                                                                    <a href=https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Windows-Setup-x64.exe"
                                                                         class="flex mb-4 items-center gap-x-4 w-full bg-gray-800 shadow-md px-3 py-2 rounded-3xl justify-between">
                                                                         <lord-icon class="w-8 h-8"
                                                                             src="https://cdn.lordicon.com/albqovim.json"
@@ -6180,99 +6154,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                         </div>
                         <p x-text="$t('macInfo')" class="text-lg font-normal mb-4 text-gray-300 lg:text-xl"></p>
                     </div>
-                    <h2 x-text="$t('generalAccess')"
-                        class="my-4 text-3xl font-black leading-none tracking-tight text-white md:text-5xl">
-
-                    </h2>
-                    <p x-text="$t('generalAccessInfo')" class="text-lg font-normal mb-4 text-gray-300 lg:text-xl"></p>
-                    <div
-                        class="collapse-arrow dark:text-white bg-gradient-to-r dark:from-gray-600 dark:via-gray-700 dark:to-gray-800 from-slate-100 via-slate-200 to-slate-300 text-black transition-all duration-300 font-medium rounded-2xl">
-                        <!-- Accordion item -->
-                        <div x-data="{ expanded: false }">
-                            <h2>
-                                <button id="faqs-title-01" type="button"
-                                    class="flex p-4 rtl:pl-0 items-center justify-between w-full text-left font-semibold"
-                                    @click="expanded = !expanded" :aria-expanded="expanded"
-                                    aria-controls="faqs-text-01">
-                                    <div class="flex items-center justify-start gap-x-2 text-lg sm:text-xl font-medium">
-                                        <div id="myConfigsContainer" class="w-8 h-8">
-                                            <lord-icon class="w-8 h-8" src="https://cdn.lordicon.com/gqzfzudq.json"
-                                                trigger="loop" delay="2000" colors="primary:#fff,secondary:#fff">
-                                            </lord-icon>
-                                        </div>
-                                        <span x-text="$t('myConfigs')">
-                                        </span>
-                                    </div>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" :class="{'!rotate-180': expanded}"
-                                        class="w-6 h-6 mx-6 transform origin-center transition duration-200 ease-out">
-                                        <path strokeLinecap="round" strokeLinejoin="round"
-                                            d="M4.5 15.75l7.5-7.5 7.5 7.5" />
-                                    </svg>
-                                </button>
-                            </h2>
-                            <div id="faqs-text-01" role="region" aria-labelledby="faqs-title-01"
-                                class="grid text-sm text-white overflow-hidden transition-all duration-300 ease-in-out"
-                                :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'">
-                                <div class="overflow-hidden">
-                                    <div class="p-4 pb-6">
-                                        <div id="configs_section" style="direction: ltr;"
-                                            class="flex flex-col gap-y-2 pt-4">
-                                            <button id="copyBtn"
-                                                class="flex mb-4 items-center justify-between bg-slate-950 px-4 py-3 text-center rounded-lg">
-                                                <lord-icon src="https://cdn.lordicon.com/nocovwne.json" trigger="loop"
-                                                    delay="2000" colors="primary:#fff,secondary:#fff" class="w-10 h-10">
-                                                </lord-icon>
-                                                <span x-text="$t('copyAllCfgs')" id="copyText">
-                                                </span>
-                                                <lord-icon src="https://cdn.lordicon.com/nocovwne.json" trigger="loop"
-                                                    delay="2000" colors="primary:#fff,secondary:#fff" class="w-10 h-10">
-                                                </lord-icon>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <h2 x-text="$t('telsupport')"
-                        class="mb-4 mt-8 text-3xl font-black leading-none tracking-tight text-white md:text-5xl">
-
-                    </h2>
-                    <p x-text="$t('supTelInfo')" class="text-lg font-normal mb-4 text-gray-300 lg:text-xl"></p>
-                    <div class="flex flex-col gap-y-4">
-                        <h2 class="font-bold text-white text-2xl mb-2" x-text="$t('sup')"></h2>
-                        <a href="https://t.me/yourID"
-                            class="py-3 px-4 transition-all duration-200 inline-flex gap-x-3 justify-center text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="w-6 h-6 fill-white"
-                                viewBox="0 0 50 50">
-                                <path
-                                    d="M25,2c12.703,0,23,10.297,23,23S37.703,48,25,48S2,37.703,2,25S12.297,2,25,2z M32.934,34.375	c0.423-1.298,2.405-14.234,2.65-16.783c0.074-0.772-0.17-1.285-0.648-1.514c-0.578-0.278-1.434-0.139-2.427,0.219	c-1.362,0.491-18.774,7.884-19.78,8.312c-0.954,0.405-1.856,0.847-1.856,1.487c0,0.45,0.267,0.703,1.003,0.966	c0.766,0.273,2.695,0.858,3.834,1.172c1.097,0.303,2.346,0.04,3.046-0.395c0.742-0.461,9.305-6.191,9.92-6.693	c0.614-0.502,1.104,0.141,0.602,0.644c-0.502,0.502-6.38,6.207-7.155,6.997c-0.941,0.959-0.273,1.953,0.358,2.351	c0.721,0.454,5.906,3.932,6.687,4.49c0.781,0.558,1.573,0.811,2.298,0.811C32.191,36.439,32.573,35.484,32.934,34.375z">
-                                </path>
-                            </svg>
-
-
-                            <span class="sm:text-lg" x-text="$t('support')"></span>
-                        </a>
-                    </div>
-                    <div class="flex mt-6 items-center justify-center gap-x-4 mb-4">
-                        <button id="qrIconBtn"
-                            onclick="openDynamicModal('{{ user.username }} Subscription' ,  window.location.href)"
-                            class="bg-gray-100 border-gray-200 dark:bg-gray-700 dark:border-gray-600 rounded-xl pt-1 px-1">
-                            <lord-icon src="https://cdn.lordicon.com/fqrjldna.json" trigger="loop" delay="2000"
-                                colors="primary:#000,secondary:#000" class="w-10 h-10">
-                            </lord-icon>
-                        </button>
-
-                        <select style="
-               text-indent:15px;
-               height:50px;" id="countries"
-                            class="border text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-2.5 py-3.5 bg-gray-100 border-gray-200 placeholder-gray-800 text-black dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white">
-                            <option value="fa">فارسی</option>
-                            <option value="en">English</option>
-                            <option value="ru">Русский</option>
-                        </select>
-                    </div>
+                   
                 </div>
             </div>
         </div>
