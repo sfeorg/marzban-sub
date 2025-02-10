@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/x0sina/marzban-sub" target="_blank" rel="noopener noreferrer">
-    <img src="https://raw.githubusercontent.com/x0sina/marzban-sub/main/PreviewTemplate.png" title="Marzba-Sub"/>
+    <img src="https://github.com/sfeorg/marzban-sub/blob/main/Screenshot%202025-02-10%20110612.png" title="Marzba-Sub"/>
   </a>
 </p>
 <h1 align="center"/>حل مشکل عدم بارگذاری بدون فیلترشکن </h1>
